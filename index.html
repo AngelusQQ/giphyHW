@@ -7,11 +7,14 @@
     </HEAD>
     <BODY>
       <h1>Add a giphy button!!</h1>
-      <div id="container">
-        <div id="search"></div>
-      </div>
-      <img src="assets/images/search.png" width="32px" height="32px">
-      <div class="container"></div>
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" id="search" placeholder="Search">
+          <button type="submit" id="submit"><img src="assets/images/search.png" width="32px" height="32px"></button>
+        </div>
+      </form>
+      <div id="buttons"></div>
+      <div id="results"></div>
       <!-- ############################################################################ Libraries ############################################################################ -->
       <!-- jquery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
